@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-use App\SLider;
+use App\Slider;
 
 use App\Post;
 
@@ -20,7 +20,7 @@ class PagesController extends Controller
 
     public function index() {
 
-        $sliders = Slider::all();
+        $sliders = Slider::all(); 
 
         $posts = Post::latest()->take(3)->get();
 
