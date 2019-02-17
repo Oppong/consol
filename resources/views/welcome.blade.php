@@ -30,7 +30,7 @@
        @include('flash-message')
 
 <div class="flex items-center justify between  h-16 " style="background-color: #8AC03C;">
-  <div class=" flex-1 text-white  font-sans pl-2 text-sm"> <i class="fa fa-envelope" style="color: white;"></i> &nbsp; informcrc20@gmail.com</div>
+  <div class=" flex-1 text-white  font-sans pl-2 text-xs"> <i class="fa fa-envelope" style="color: white;"></i> &nbsp; informcrc20@gmail.com</div>
   <div class=" flex-1 text-white font-sans text-right pr-2 text-sm"> <i class="fa fa-phone" style="color: white"></i> &nbsp; +233 026 976 8163</div>
 </div>                 
 
